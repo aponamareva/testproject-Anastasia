@@ -1,0 +1,14 @@
+body {
+    background-color: #F0F1F3;
+    font-family: Inter;
+}
+
+header {
+    background-color: white;
+    height: 82px;
+    margin: -10px -10px 0px -10px;
+}
+
+.language {
+    transform: rotate(-90deg);
+}
