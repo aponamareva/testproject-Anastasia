@@ -1,14 +1,131 @@
-body {
-    background-color: #F0F1F3;
-    font-family: Inter;
-}
-
 header {
     background-color: white;
     height: 82px;
     margin: -10px -10px 0px -10px;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+header table {
+    margin: 32 auto;
+    width:100%;
+    max-width: 1086px;
+    text-align: center;
+}
+
+header table a {
+    text-decoration: none;
+    color: black;
+}
+
+.home, .skills, .contacts {
+    background-color: white;
+    text-align: center;
+}
+
+.home table {
+    margin: 0 auto 30 auto;
+    width:100%;
+    max-width: 943px;
+    text-align: center;
+}
+
+.name {
+    font-family: Gilroy-Bold;
+    font-size: 47px;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 33%;
+}
+
+.about {
+    text-align: center;
+    vertical-align: bottom;
+    width: 33%;
 }
 
 .language {
-    transform: rotate(-90deg);
+    transform: rotateZ(-90deg);
+    position: absolute;
+    width: 100px;
+    top: 60px;
+    right: -45px;
+}
+
+.language-conteiner {
+    position: relative;
+    width: 28%;
+}
+
+.home img {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-family: Gilroy-Bold;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 60px;
+    vertical-align: middle
+}
+
+.about-me {
+    background-color: #F6F6F6;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+
+/* .portfolio img {
+    margin-left: 258px;
+    margin-right: 251px;
+} */
+
+.portfolio-link {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.contacts {
+    margin-top: 80px;
+    padding-bottom: 90px;
+}
+
+.chat {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+
+.like {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
 }
