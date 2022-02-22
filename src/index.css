@@ -88,18 +88,21 @@ header table a {
     padding-bottom: 80px;
 }
 
+.skills img {
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: center;
+}
+
 .portfolio {
     background-color: #F6F6F6;
     text-align: center;
     padding-top: 20px;
     margin-top: 60px;
     padding-bottom: 80px;
+    text-decoration: none;
+    color: black;
 }
-
-/* .portfolio img {
-    margin-left: 258px;
-    margin-right: 251px;
-} */
 
 .portfolio-link {
     font-family: Gilroy-Medium;
@@ -107,11 +110,26 @@ header table a {
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .contacts {
     margin-top: 80px;
     padding-bottom: 90px;
+}
+
+.contacts a {
+    color: white;
+	background-color: black; 
+	padding: 8px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.contacts img {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .chat {
@@ -120,6 +138,7 @@ header table a {
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
+    margin-bottom: 35px;
     }
 
 .like {
